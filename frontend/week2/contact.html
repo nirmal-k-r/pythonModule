@@ -12,7 +12,44 @@
             <hr>
         </nav>
 
-       <h1>Contact us</h1>
+        <section>
+            <h1>Contact us</h1>
+            <form>
+                <label>Email</label>
+                <input type="email" name="email" required>
+                <br><br>
+
+                <label>Phone</label>
+                <input type="tel" name="phone" required>
+                <br><br>
+
+                <label>Name</label>
+                <input type="text" name="name" required>
+                <br><br>
+
+                <label>Title</label>
+                <label>Mr</label><input type="radio" name="title" value="Mr">
+                <label>Mrs</label><input type="radio" name="title" value="Mrs">
+                <label>Ms</label><input type="radio" name="title" value="Ms">
+
+                <br><br>
+
+                <label>Message</label>
+                <textarea name="message"></textarea>
+                <br><br>
+
+                <label>Priority</label>
+
+                <select name="priority" required>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+      
         
     </body>
 </html>
