@@ -1,0 +1,25 @@
+*{
+    font-family: "Playwrite FR Moderne", cursive;
+}
+
+h1 {
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    color: green; 
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* this is a css comment */
+
+.redText{ /* class selector. starts with a . */
+    color:red;
+}
+
+#greenText{ /* id selector. starts with a # */
+    color: orange;  
+}
+
